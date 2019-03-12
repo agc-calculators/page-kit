@@ -3,6 +3,7 @@ import * as Containers from './styles/containers';
 import * as Forms from './styles/forms';
 import * as Lists from './styles/lists';
 import * as Tables from './styles/tables';
+import * as Layouts from './styles/layouts';
 
 
 export {
@@ -10,5 +11,6 @@ export {
     Containers,
     Forms,
     Lists,
-    Tables
+    Tables,
+    Layouts
 }

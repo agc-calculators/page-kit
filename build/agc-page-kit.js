@@ -189,11 +189,51 @@
     StyledTable: StyledTable
   });
 
+  function _templateObject3$1() {
+    var data = _taggedTemplateLiteral(["\n    order: var(--layout-column-aside-order, 1);\n    width: var(--layout-column-aside-width, 20%);\n    background: var(--layout-column-aside-background, #ffffff);\n    padding: var(--layout-column-aside-padding, 20px);\n"]);
+
+    _templateObject3$1 = function _templateObject3() {
+      return data;
+    };
+
+    return data;
+  }
+
+  function _templateObject2$3() {
+    var data = _taggedTemplateLiteral(["\n    flex: 1;\n    order: var(--layout-column-main-order, 2);\n    padding: var(--layout-column-main-padding, 20px);\n    border-left: var(--layout-column-main-border-left, 1px solid #cccccc);\n    border-right: var(--layout-column-main-border-right, 1px solid #cccccc);\n"]);
+
+    _templateObject2$3 = function _templateObject2() {
+      return data;
+    };
+
+    return data;
+  }
+
+  function _templateObject$5() {
+    var data = _taggedTemplateLiteral(["\n    display: flex;\n"]);
+
+    _templateObject$5 = function _templateObject() {
+      return data;
+    };
+
+    return data;
+  }
+  var StyledLayout = styled.div(_templateObject$5());
+  var StyledLayoutColumnMain = styled.main(_templateObject2$3());
+  var StyledLayoutColumnAside = styled.aside(_templateObject3$1());
+
+  var layouts = /*#__PURE__*/Object.freeze({
+    StyledLayout: StyledLayout,
+    StyledLayoutColumnMain: StyledLayoutColumnMain,
+    StyledLayoutColumnAside: StyledLayoutColumnAside
+  });
+
   exports.Cards = cards;
   exports.Containers = containers;
   exports.Forms = forms;
   exports.Lists = lists;
   exports.Tables = tables;
+  exports.Layouts = layouts;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
