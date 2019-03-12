@@ -1,6 +1,6 @@
 {
   "name": "@agc-calculators/page-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Page kit styles",
   "main": "build/agc-page-kit.js",
   "module": "build/agc-page-kit.module.js",

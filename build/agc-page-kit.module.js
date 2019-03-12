@@ -82,7 +82,7 @@ var forms = /*#__PURE__*/Object.freeze({
 });
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral(["\ndisplay: inline-block;\nvertical-align: top;\n\n> a {\nborder-radius: 3px;\ncolor: var(--list-item-color, #6b808c);\ndisplay: block;\nmargin: 0 1px 1px;\npadding: 6px 8px;\ntransition: .1s ease;\ntext-decoration: underline;\nbackground-color: transparent;\n}\n\n&:hover > a {\nbackground-color: var(--list-item-hover-background, #edeff0);\ncolor: var(--list-item-hover-color, #092d42);\n}\n\n&.active > a,\n&.active > a:hover {\nbackground-color: var(--list-item-active-background, #e4f0f6);\ncolor: var(--list-item-active-color: #026aa7);\n}    \n"]);
+  var data = _taggedTemplateLiteral(["\ndisplay: inline-block;\nvertical-align: top;\n\n> a {\nborder-radius: 3px;\ncolor: var(--list-item-color, #6b808c);\ndisplay: block;\nmargin: 0 1px 1px;\npadding: 6px 8px;\ntransition: .1s ease;\ntext-decoration: underline;\nbackground-color: transparent;\n}\n\n&:hover > a {\nbackground-color: var(--list-item-hover-background, #edeff0);\ncolor: var(--list-item-hover-color, #092d42);\n}\n\n&.active > a,\n&.active > a:hover,\na.active {\nbackground-color: var(--list-item-active-background, #e4f0f6);\ncolor: var(--list-item-active-color: #026aa7);\n}    \n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -132,7 +132,7 @@ function _templateObject3() {
 }
 
 function _templateObject2$2() {
-  var data = _taggedTemplateLiteral(["\nmargin-bottom: var(--list-item-spacing, 4px);\n> a {\nalign-items: center;\nbackground-color: transparent;\nborder-radius: 4px;\nbox-shadow: none;\ncolor: var(--list-item-color, #17394d);\ndisplay: flex;\nfont-weight: 700;\nmargin: 0;\nmin-height: 20px;\noverflow: hidden;\npadding: 6px 8px 6px 0;\ntext-decoration: none;\ntransition-property: background-color, border-color, box-shadow;\ntransition-duration: 85ms;\ntransition-timing-function: ease;\n}    \n> a:hover {\ncolor: var(--list-item-hover-color, #092d42);\nbackground-color: var(--list-item-hover-background, rgba(9,45,66,.13));\n}\n&.active > a,\n&.active > a:hover {\nbackground-color: var(--list-item-active-background, #e4f0f6);\ncolor: var(--list-item-active-color: #026aa7);\n}\n"]);
+  var data = _taggedTemplateLiteral(["\nmargin-bottom: var(--list-item-spacing, 4px);\n> a {\nalign-items: center;\nbackground-color: transparent;\nborder-radius: 4px;\nbox-shadow: none;\ncolor: var(--list-item-color, #17394d);\ndisplay: flex;\nfont-weight: 700;\nmargin: 0;\nmin-height: 20px;\noverflow: hidden;\npadding: 6px 8px 6px 0;\ntext-decoration: none;\ntransition-property: background-color, border-color, box-shadow;\ntransition-duration: 85ms;\ntransition-timing-function: ease;\n}    \n> a:hover {\ncolor: var(--list-item-hover-color, #092d42);\nbackground-color: var(--list-item-hover-background, rgba(9,45,66,.13));\n}\n&.active > a,\n&.active > a:hover,\na.active {\nbackground-color: var(--list-item-active-background, #e4f0f6);\ncolor: var(--list-item-active-color: #026aa7);\n}\n"]);
 
   _templateObject2$2 = function _templateObject2() {
     return data;

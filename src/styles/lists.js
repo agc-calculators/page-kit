@@ -29,7 +29,8 @@ color: var(--list-item-hover-color, #092d42);
 background-color: var(--list-item-hover-background, rgba(9,45,66,.13));
 }
 &.active > a,
-&.active > a:hover {
+&.active > a:hover,
+a.active {
 background-color: var(--list-item-active-background, #e4f0f6);
 color: var(--list-item-active-color: #026aa7);
 }
@@ -94,7 +95,8 @@ color: var(--list-item-hover-color, #092d42);
 }
 
 &.active > a,
-&.active > a:hover {
+&.active > a:hover,
+a.active {
 background-color: var(--list-item-active-background, #e4f0f6);
 color: var(--list-item-active-color: #026aa7);
 }    
